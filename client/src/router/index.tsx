@@ -7,6 +7,9 @@ import MagicLinkPage from '../pages/AuthPages/MagicLinkPage';
 import ProtectedRoute from '../components/ProtectedRoutes';
 import Landing from '../pages/Landing';
 import SignInPage from '../pages/AuthPages/SigninPage';
+import AccountSettings from '../pages/AccoutingSetting';
+import SurveyPage from '../pages/SurveyPage';
+import QuestionnairePage from '../pages/QuestionnairePage';
 
 export default function AppRouter() {
   return (
@@ -26,6 +29,31 @@ export default function AppRouter() {
             </ProtectedRoute>
           }
         />
+        <Route 
+          path= "/account-settings"
+          element= {
+            <ProtectedRoute>
+              <AccountSettings />
+            </ProtectedRoute>
+          }
+        />
+        <Route 
+          path= "/survey"
+          element= {
+            <ProtectedRoute>
+              <SurveyPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route 
+          path= "/questionnaire"
+          element= {
+            <ProtectedRoute>
+              <QuestionnairePage />
+            </ProtectedRoute>
+          }
+        />
+
         <Route path="*" element={<SignInPage />} />
       </Routes>
     </Router>
