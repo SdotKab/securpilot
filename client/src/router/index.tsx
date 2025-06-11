@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from '../pages/Dashboard';
 import SignupPage from '../pages/AuthPages/SignupPage';
-import SignInPage from '../pages/AuthPages/SignInPage';
 import PasswordResetPage from '../pages/AuthPages/PasswordResetPage';
 import UpdatePasswordPage from '../pages/AuthPages/UpdatePasswordPage';
 import MagicLinkPage from '../pages/AuthPages/MagicLinkPage';
 import ProtectedRoute from '../components/ProtectedRoutes';
 import Landing from '../pages/Landing';
+import SignInPage from '../pages/AuthPages/SigninPage';
 
 export default function AppRouter() {
   return (
