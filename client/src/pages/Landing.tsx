@@ -1,10 +1,10 @@
-import DailyStats from "../components/DailyStats";
-import Join from "../components/Join";
-import Jumbotron from "../components/Jumbotron";
-import Mission from "../components/Mission";
+import DailyStats from "../components/LandingPage/DailyStats";
+import Jumbotron from "../components/LandingPage/Jumbotron";
+import Mission from "../components/LandingPage/Mission";
 import Navbar from "../components/Navbar";
-import Services from "../components/Services";
-import ThreatFeed from "../components/ThreatFeed";
+import Services from "../components/LandingPage/Services";
+import ThreatFeed from "../components/LandingPage/ThreatFeed";
+import Join from "../components/LandingPage/Join";
 
 
 export default function Landing() {
