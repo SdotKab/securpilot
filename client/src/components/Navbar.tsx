@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useAuth } from '../context/AuthProvider';
 import { Menu, Transition } from '@headlessui/react';
-import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import { ChevronDownIcon } from '@heroicons/react/16/solid';
 import Logo from '../assets/logo.svg'; // ✅ Adjust this path as needed
 
 export default function Navbar() {

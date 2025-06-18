@@ -1,8 +1,10 @@
-import React from 'react'
+import QuestionnaireForm from '../components/Questionnaire/QuestionnaireForm'
 
 const QuestionnairePage = () => {
   return (
-    <div>QuestionnairePage</div>
+    <div>
+      <QuestionnaireForm />
+    </div>
   )
 }
 
